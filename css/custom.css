@@ -1,0 +1,44 @@
+/* header section design */
+.honda-dark-blue{
+    background-color: #264653;
+}
+.text-gray{
+    color: #E0E0E0;
+}
+.bg-light-red {
+    background-color: #E76F51;
+}
+.font-s-48-w-600{
+    font-size: 48px;
+    font-weight: 600;
+}
+/* feature section */
+.text-light-red{
+    color:#E76F51;
+}
+.font-s-14-w-600{
+    font-size: 14px;
+    font-weight: 600;
+}
+/* Feature image */
+.feature-image{
+    width: 288px;
+    height: 243px;
+}
+.gray-scale{
+    filter: grayscale(100%);
+}
+/* customer feedback */
+.user-image{
+    width: 149px;
+    height: 149px;
+}
+.width-323px{
+    width: 323px;
+}
+.text-red-orange{
+    color: #E77C40;
+}
+.text-sky-blue{
+    color: #23A6F0;
+}
