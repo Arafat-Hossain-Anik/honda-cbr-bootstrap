@@ -68,21 +68,28 @@
                 <h1 class="font-s-48-w-600">Featured Bike 2021</h1>
                 <span class="text-light-red font-s-14-w-600">Best Bike Collection</span>
             </div>
-            <div class="container d-block d-lg-flex justify-content-around mb-5">
-                <img class="feature-image gray-scale" src="images/feature-bike.jpg" alt="">
-                <img class="feature-image" src="images/feature-bike.jpg" alt="">
-                <img class="feature-image gray-scale" src="images/feature-bike.jpg" alt="">
+            <div class="container  mb-5">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    <div class="col text-center">
+                        <img class="feature-image img-fluid gray-scale" src="images/feature-bike.jpg" alt="">
+                    </div>
+                    <div class="col text-center">
+                        <img class="feature-image img-fluid " src="images/feature-bike.jpg" alt="">
+                    </div>
+                    <div class="col text-center">
+                        <img class="feature-image img-fluid gray-scale" src="images/feature-bike.jpg" alt="">
+                    </div>
+                </div>
             </div>
         </section>
         <!-- Customer Feedback Section -->
         <section class="container">
             <h1 class="font-s-48-w-600 my-5 text-center">Happy <span class="text-light-red">Clients Says</span></h1>
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 my-5 g-4 justify-content-center">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 my-5 g-4 flex-lg-nowrap justify-content-center">
                 <div class="col width-323px">
                     <div class="card pt-3 px-2">
                         <img src="images/user-1.png" class="card-img-top user-image mx-auto" alt="...">
                         <div class="card-body text-center">
-
                             <p class="card-text">Slate helps you see how many more days you need to work to reach your
                                 financial goal for the month and year.</p>
                             <div>
@@ -137,9 +144,9 @@
                 </div>
             </div>
         </section>
-        <!-- Accordion Section -->
-        <section class="container d-sm-block d-lg-flex my-5">
-            <div class="w-100 p-4">
+        <!-- FAQ / Accordion Section -->
+        <section class="container d-sm-block d-lg-flex align-items-center my-5">
+            <div class="w-100 p-4 text-md-center">
                 <img class="img-fluid" src="images/faq-pic.png" alt="">
             </div>
             <div class="container accordion accordion-flush" id="accordionFlushExample">
@@ -204,7 +211,7 @@
                 </div>
             </div>
         </section>
-        <!-- Carousel Section -->
+        <!-- Upcoming Section/Carousel Section -->
         <section class="container my-5">
             <h1 class="font-s-48-w-600 text-center mb-5"><span class="text-light-red">Upcomming</span> Bike</h1>
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -276,8 +283,31 @@
             </div>
         </section>
         <!-- Send Feedback Section -->
-        <section class="container">
-
+        <section class="container my-5">
+            <h1 class="text-center">Send Your <span class="text-red-orange"> Valuable Feedback</span> to Us</h1>
+            <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 align-items-end">
+                <div class="col text-center">
+                    <img class="img-fluid" src="images/send-message-2.png" alt="">
+                </div>
+                <div class="col mt-5">
+                    <div class="form-floating mb-2">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                    </div>
+                    <div class="form-floating mb-2">
+                        <input type="text" class="form-control" id="floatingText" placeholder="Name">
+                        <label for="floatingText">Your Name</label>
+                    </div>
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                            style="height: 150px"></textarea>
+                        <label for="floatingTextarea2">Your Feedback</label>
+                    </div>
+                    <div class="d-grid col-6 mx-auto mt-2">
+                        <button class="btn bg-light-red text-light">Send</button>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <script src="js/bootstrap.bundle.min.js"></script>
